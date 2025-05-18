@@ -27,6 +27,7 @@ This repository contains deployment guides and setup instructions for common Dev
 
 ## 📁 Folder Structure
 
+```bash
 devops-deployments/
 ├── ansible/
 ├── docker/
@@ -47,7 +48,7 @@ devops-deployments/
 ├── terraform/
 ├── zabbix/
 └── README.md
-
+```
 
 ## 🚀 Usage
 
