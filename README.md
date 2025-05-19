@@ -1,31 +1,36 @@
 # DevOps Deployments
 
-This repository contains deployment guides and setup instructions for common DevOps tools and services. Each tool has its own directory with a dedicated `README.md` that includes installation steps, configuration examples, and best practices.
+This repository provides a collection of deployment guides for common DevOps and infrastructure tools. Each directory contains step-by-step instructions, configuration tips, and references for setting up the respective software in production-like environments.
 
-## 📦 Included Tools
+Whether you're building a self-hosted DevOps stack, testing tools in a lab environment, or documenting deployment procedures for your team, this repository aims to be a practical and modular resource.
 
-| Tool         | Description                          |
-|--------------|--------------------------------------|
-| [Ansible](ansible/README.md)       | Configuration management and automation tool |
-| [Docker](docker/README.md)         | Container platform for building and running applications |
-| [Elasticsearch](elasticsearch/README.md) | Distributed search and analytics engine |
-| [Git](git/README.md)               | Version control system |
-| [GitLab](gitlab/README.md)         | Git-based DevOps platform with CI/CD |
-| [Grafana](grafana/README.md)       | Visualization and monitoring dashboard |
-| [Jenkins](jenkins/README.md)       | Automation server for building CI/CD pipelines |
-| [Kibana](kibana/README.md)         | Visualization frontend for Elasticsearch |
-| [Linux](linux/README.md)           | Basic system configuration and commands |
-| [Logstash](logstash/README.md)     | Data processing pipeline for logs |
-| [MySQL](mysql/README.md)           | Relational database management system |
-| [Nacos](nacos/README.md)           | Service discovery and configuration management |
-| [Nginx](nginx/README.md)           | High-performance HTTP server and reverse proxy |
-| [Prometheus](prometheus/README.md) | Monitoring and alerting system |
-| [Redis](redis/README.md)           | In-memory key-value store |
-| [RocketMQ](rocketmq/README.md)     | Distributed messaging and streaming platform |
-| [Terraform](terraform/README.md)   | Infrastructure as Code (IaC) tool |
-| [Zabbix](zabbix/README.md)         | Monitoring solution for networks and applications |
+---
 
-## 📁 Folder Structure
+## 📦 Supported Tools
+
+| Tool          | Description                                        |
+|---------------|----------------------------------------------------|
+| [Ansible](ansible/README.md)       | IT automation and configuration management tool |
+| [Docker](docker/README.md)         | Platform for containerizing applications         |
+| [Elasticsearch](elasticsearch/README.md) | Search and analytics engine                |
+| [Git](git/README.md)               | Distributed version control system               |
+| [GitLab](gitlab/README.md)         | Git-based DevOps platform with CI/CD             |
+| [Grafana](grafana/README.md)       | Metrics visualization and dashboarding tool      |
+| [Jenkins](jenkins/README.md)       | CI/CD automation server                          |
+| [Kibana](kibana/README.md)         | UI for querying and visualizing Elasticsearch data |
+| [Kubernetes](kubernetes/README.md) | Container orchestration system                   |
+| [Linux](linux/README.md)           | Core system setup and essential commands         |
+| [Logstash](logstash/README.md)     | Logs and event data processing pipeline          |
+| [MySQL](mysql/README.md)           | Relational database system                       |
+| [Nacos](nacos/README.md)           | Service registry and configuration platform      |
+| [Nginx](nginx/README.md)           | Web server and reverse proxy                     |
+| [Prometheus](prometheus/README.md) | Metrics collection and alerting system           |
+| [Redis](redis/README.md)           | In-memory data structure store                   |
+| [RocketMQ](rocketmq/README.md)     | Distributed messaging and streaming platform     |
+| [Terraform](terraform/README.md)   | Infrastructure as Code (IaC) provisioning tool   |
+| [Zabbix](zabbix/README.md)         | Enterprise-grade monitoring and alerting         |
+
+## 📁 Directory Structure
 
 ```bash
 devops-deployments/
@@ -37,6 +42,7 @@ devops-deployments/
 ├── grafana/
 ├── jenkins/
 ├── kibana/
+├── kubernetes/
 ├── linux/
 ├── logstash/
 ├── mysql/
@@ -50,12 +56,19 @@ devops-deployments/
 └── README.md
 ```
 
-## 🚀 Usage
+## 🛠️ Usage
 
-- Navigate into any tool’s folder to find installation and setup instructions.
-- Most guides are tailored for Linux-based environments.
-- Suitable for on-premise setups or private cloud environments.
-- Combine with `devops-learning` for a well-rounded understanding.
+- Browse to the folder of the tool you want to deploy.
+- Follow the instructions in its `README.md`.
+- Most guides are tailored for Linux environments and focus on manual or semi-automated deployment using shell, systemd, or containerized runtimes.
+
+## 🎯 Audience
+
+This repository is for:
+- DevOps engineers deploying and maintaining infrastructure
+- Developers building local or test environments
+- Students and professionals learning DevOps tooling
+- Teams documenting internal deployment procedures
 
 ## 📜 License
 
@@ -63,4 +76,4 @@ This project is licensed under the terms of the [LICENSE](LICENSE) file.
 
 ---
 
-> ✅ Contributions and improvements are welcome! If you find an issue or have better steps, feel free to open a PR.
+> ✅ Contributions and suggestions are welcome! Feel free to open issues or submit pull requests to improve or expand the guides.
