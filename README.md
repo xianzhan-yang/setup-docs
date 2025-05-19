@@ -1,8 +1,8 @@
-# DevOps Deployments
+# DevOps Setup Docs
 
-This repository provides a collection of deployment guides for common DevOps and infrastructure tools. Each directory contains step-by-step instructions, configuration tips, and references for setting up the respective software in production-like environments.
+This repository contains deployment guides for popular DevOps and infrastructure tools. Each directory includes a `README.md` with step-by-step instructions, configuration tips, and best practices to help you set up and configure the respective tool in production-like environments.
 
-Whether you're building a self-hosted DevOps stack, testing tools in a lab environment, or documenting deployment procedures for your team, this repository aims to be a practical and modular resource.
+Whether you're building a full DevOps stack, testing tools in a lab environment, or documenting procedures for your team, this collection provides a practical and modular resource.
 
 ---
 
@@ -29,11 +29,14 @@ Whether you're building a self-hosted DevOps stack, testing tools in a lab envir
 | [RocketMQ](rocketmq/README.md)     | Distributed messaging and streaming platform     |
 | [Terraform](terraform/README.md)   | Infrastructure as Code (IaC) provisioning tool   |
 | [Zabbix](zabbix/README.md)         | Enterprise-grade monitoring and alerting         |
+| [Zookeeper](zookeeper/README.md)   | Coordination service for distributed systems     |
+
+---
 
 ## 📁 Directory Structure
 
 ```bash
-devops-deployments/
+setup-docs/
 ├── ansible/
 ├── docker/
 ├── elasticsearch/
@@ -41,6 +44,7 @@ devops-deployments/
 ├── gitlab/
 ├── grafana/
 ├── jenkins/
+├── kafka/
 ├── kibana/
 ├── kubernetes/
 ├── linux/
@@ -53,22 +57,30 @@ devops-deployments/
 ├── rocketmq/
 ├── terraform/
 ├── zabbix/
-└── README.md
+└── zookeeper/
 ```
+
+---
 
 ## 🛠️ Usage
 
-- Browse to the folder of the tool you want to deploy.
-- Follow the instructions in its `README.md`.
-- Most guides are tailored for Linux environments and focus on manual or semi-automated deployment using shell, systemd, or containerized runtimes.
+1. Navigate to the folder of the tool you wish to deploy.
+2. Open the `README.md` file for each tool and follow the instructions for installation and setup.
+3. Most of the guides are tailored for Linux-based environments.
+4. Deployment instructions may vary, with most following a manual or semi-automated approach using shell commands, systemd, or containerized runtimes.
 
-## 🎯 Audience
+---
 
-This repository is for:
-- DevOps engineers deploying and maintaining infrastructure
-- Developers building local or test environments
-- Students and professionals learning DevOps tooling
-- Teams documenting internal deployment procedures
+## 🎯 Intended Audience
+
+This repository is designed for:
+
+- **DevOps engineers** managing and deploying infrastructure
+- **Developers** building local, test, or staging environments
+- **Students and professionals** learning about DevOps tools and technologies
+- **Teams** documenting internal deployment procedures and best practices
+
+---
 
 ## 📜 License
 
@@ -76,4 +88,7 @@ This project is licensed under the terms of the [LICENSE](LICENSE) file.
 
 ---
 
-> ✅ Contributions and suggestions are welcome! Feel free to open issues or submit pull requests to improve or expand the guides.
+> ✅ **Contributions are welcome!**  
+Feel free to open issues or submit pull requests to improve or expand the documentation.
+
+---
