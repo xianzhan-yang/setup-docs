@@ -233,7 +233,6 @@ sudo systemctl status elasticsearch
 
 - Elasticsearch: https://www.elastic.co/elasticsearch
 - Docs: https://www.elastic.co/guide/en/elasticsearch/reference/index.html
-- Rocky Linux: https://rockylinux.org
 
 ---
 

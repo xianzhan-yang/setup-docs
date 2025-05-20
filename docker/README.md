@@ -217,7 +217,6 @@ docker rm <container_id>
 
 - Docker: https://www.docker.com
 - Docker Docs: https://docs.docker.com
-- Rocky Linux: https://rockylinux.org
 
 ---
 

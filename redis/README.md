@@ -213,7 +213,6 @@ redis-cli info
 
 - Redis: https://redis.io
 - Redis Docs: https://redis.io/docs/
-- Rocky Linux: https://rockylinux.org
 
 ---
 

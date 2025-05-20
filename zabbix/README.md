@@ -273,7 +273,6 @@ sudo systemctl status zabbix-server
 
 - Zabbix: https://www.zabbix.com
 - Docs: https://www.zabbix.com/documentation/
-- Rocky Linux: https://rockylinux.org
 
 ---
 

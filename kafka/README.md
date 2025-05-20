@@ -259,7 +259,6 @@ kafka-topics.sh --list --bootstrap-server localhost:9092
 
 - Kafka: https://kafka.apache.org
 - Kafka Docs: https://kafka.apache.org/documentation/
-- Rocky Linux: https://rockylinux.org
 
 ---
 

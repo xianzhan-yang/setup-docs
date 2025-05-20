@@ -190,7 +190,6 @@ terraform validate
 
 - Terraform: https://www.terraform.io
 - Docs: https://developer.hashicorp.com/terraform/docs
-- Rocky Linux: https://rockylinux.org
 
 ---
 

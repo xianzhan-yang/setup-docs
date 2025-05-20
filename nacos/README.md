@@ -242,7 +242,6 @@ sudo userdel nacos
 - Nacos: https://nacos.io
 - Docs: https://nacos.io/en-us/docs/
 - GitHub: https://github.com/alibaba/nacos
-- Rocky Linux: https://rockylinux.org
 
 ---
 

@@ -217,7 +217,6 @@ sudo systemctl status keepalived
 ### 12.3 References
 
 - Keepalived: https://keepalived.org
-- Rocky Linux: https://rockylinux.org
 
 ---
 

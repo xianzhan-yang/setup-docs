@@ -211,7 +211,6 @@ sudo systemctl status kibana
 
 - Kibana: https://www.elastic.co/kibana
 - Docs: https://www.elastic.co/guide/en/kibana/current/index.html
-- Rocky Linux: https://rockylinux.org
 
 ---
 

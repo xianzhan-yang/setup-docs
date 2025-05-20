@@ -189,7 +189,6 @@ git pull
 
 - Git: https://git-scm.com
 - Git Docs: https://git-scm.com/doc
-- Rocky Linux: https://rockylinux.org
 
 ---
 

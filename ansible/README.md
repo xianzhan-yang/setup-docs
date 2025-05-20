@@ -198,7 +198,6 @@ ansible-playbook site.yml
 
 - Ansible: https://www.ansible.com
 - Docs: https://docs.ansible.com
-- Rocky Linux: https://rockylinux.org
 
 ---
 

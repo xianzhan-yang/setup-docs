@@ -237,7 +237,6 @@ kubectl apply -f <file>.yaml
 
 - Kubernetes: https://kubernetes.io
 - kubeadm Docs: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/
-- Rocky Linux: https://rockylinux.org
 
 ---
 

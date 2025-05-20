@@ -251,7 +251,6 @@ sudo gitlab-ctl tail
 
 - GitLab Official: https://about.gitlab.com
 - Documentation: https://docs.gitlab.com
-- Rocky Linux: https://rockylinux.org
 
 ---
 

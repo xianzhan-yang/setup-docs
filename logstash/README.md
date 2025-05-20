@@ -217,7 +217,6 @@ sudo systemctl status logstash
 
 - Logstash: https://www.elastic.co/logstash
 - Docs: https://www.elastic.co/guide/en/logstash/current/index.html
-- Rocky Linux: https://rockylinux.org
 
 ---
 

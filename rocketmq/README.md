@@ -249,7 +249,6 @@ sh mqadmin updateTopic -n localhost:9876 -t TestTopic -c DefaultCluster
 - Docs: https://rocketmq.apache.org/docs/
 - GitHub: https://github.com/apache/rocketmq
 - Dashboard: https://github.com/apache/rocketmq-dashboard
-- Rocky Linux: https://rockylinux.org
 
 ---
 

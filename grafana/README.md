@@ -216,7 +216,6 @@ sudo systemctl status grafana-server
 
 - Grafana: https://grafana.com
 - Documentation: https://grafana.com/docs/
-- Rocky Linux: https://rockylinux.org
 
 ---
 

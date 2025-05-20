@@ -248,7 +248,6 @@ echo ruok | nc localhost 2181
 ### 13.3 References
 
 - Zookeeper: https://zookeeper.apache.org
-- Rocky Linux: https://rockylinux.org
 
 ---
 

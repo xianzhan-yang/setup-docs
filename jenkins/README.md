@@ -237,7 +237,6 @@ sudo systemctl status jenkins
 
 - Jenkins: https://www.jenkins.io
 - Jenkins Docs: https://www.jenkins.io/doc/
-- Rocky Linux: https://rockylinux.org
 
 ---
 

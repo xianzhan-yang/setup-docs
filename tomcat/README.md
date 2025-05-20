@@ -268,7 +268,6 @@ sudo systemctl status tomcat
 ### 12.3 References
 
 - Tomcat: https://tomcat.apache.org
-- Rocky Linux: https://rockylinux.org
 
 ---
 

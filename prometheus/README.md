@@ -236,7 +236,6 @@ sudo systemctl status prometheus
 
 - Prometheus: https://prometheus.io
 - Prometheus Docs: https://prometheus.io/docs/
-- Rocky Linux: https://rockylinux.org
 
 ---
 

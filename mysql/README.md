@@ -187,7 +187,6 @@ sudo systemctl status mysqld
 
 - MySQL: https://www.mysql.com
 - Docs: https://dev.mysql.com/doc/
-- Rocky Linux: https://rockylinux.org
 
 ---
 

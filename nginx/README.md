@@ -186,7 +186,6 @@ sudo systemctl status nginx
 
 - NGINX: https://nginx.org
 - Docs: https://nginx.org/en/docs/
-- Rocky Linux: https://rockylinux.org
 
 ---
 
